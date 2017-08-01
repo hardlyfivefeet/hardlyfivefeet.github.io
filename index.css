@@ -1,0 +1,36 @@
+h1 {
+  font-family: cursive;
+  background-color: rgb(164, 111, 155);
+  color: black;
+  text-shadow: 2px 2px 3px white;
+  font-size: 40px;
+}
+
+body {
+  background-color:rgb(198, 155, 191);
+  font-family: Georgia;
+}
+
+h2 {
+  color: rgb(255, 234, 240);
+  text-shadow: 2px 2px 3px black;
+  font-family: Lucida;
+}
+
+strong {
+  color: rgb(117, 19, 229);
+}
+
+img {
+  border: 2px dashed white;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+em {
+  font-weight: bold;
+ }
