@@ -49,3 +49,8 @@ h2 {
    font-style: italic;
    font-weight: bold;
  }
+
+ img {
+   border: 2px dashed blue;
+   border-radius: 50%;
+ }
