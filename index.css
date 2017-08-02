@@ -1,36 +1,51 @@
 h1 {
   font-family: cursive;
-  background-color: rgb(164, 111, 155);
+  background-color: rgb(240, 211, 220);
   color: black;
   text-shadow: 2px 2px 3px white;
   font-size: 40px;
+  text-align: center;
 }
 
 body {
   background-color:rgb(198, 155, 191);
-  font-family: Georgia;
+  font-family: Lucida;
+  margin-left: 10px;
 }
 
 h2 {
-  color: rgb(255, 234, 240);
-  text-shadow: 2px 2px 3px black;
+  color: rgb(149, 100, 243);
+  text-shadow: 2px 2px 3px white;
   font-family: Lucida;
+  border-bottom: 2px dashed white;
+  padding-bottom: 5px;
+  max-width: 270px;
 }
 
-strong {
-  color: rgb(117, 19, 229);
-}
+ footer {
+   border-top: 2px solid black;
+   margin-top: 20px;
+   padding-top: 10px;
+   font-style: italic;
+   font-size: 12px;
+ }
 
-img {
-  border: 2px dashed white;
-  margin-bottom: 20px;
-}
+ p.intro {
+   text-align: center;
+ }
 
-span {
-  font-size: 20px;
-  font-weight: bold;
-}
+ strong {
+   color: #8B0000;
+   font-size: 17px;
+ }
 
-em {
-  font-weight: bold;
+ span.emphasis1 {
+   font-weight: bold;
+   font-size: 20px;
+   text-shadow: 0 0 3px #FF9999;
+ }
+
+ span.emphasis2 {
+   font-style: italic;
+   font-weight: bold;
  }
