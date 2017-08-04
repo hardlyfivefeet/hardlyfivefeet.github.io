@@ -1,0 +1,62 @@
+h1 {
+  color: rgb(149, 100, 243);
+  text-shadow: 2px 2px 3px white;
+  font-family: Lucida;
+  border-bottom: 2px dashed rgb(149, 100, 243);
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 24px;
+}
+
+img.spotify {
+  width: 350px;
+  height: 150px;
+}
+
+img.poppunk {
+  width: 430px;
+  height: 150px;
+}
+
+body {
+    background-image: url(https://www.lade-drinks.de/wp-content/uploads/2016/02/background-lade.jpg);
+    background-size: cover;
+}
+
+footer {
+  border-top: 2px solid black;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-style: italic;
+  font-size: 12px;
+  color: black;
+}
+
+.menu {
+  background-color: #E6E6FA;
+  overflow: hidden;
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+img.shows {
+  width: 150px;
+  height: 220px;
+}
+
+#posters {
+  text-align: center;
+}
+
+img.books {
+  width: 150px;
+  height: 220px;
+}
