@@ -12,5 +12,13 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+    setTimeout(carousel, 2000); 
 }
+
+function h1fading() {
+    $("h1").fadeOut(3000, function() {
+        $(this).fadeIn(2000, h1fading());
+    });
+}
+
+$(document).ready(h1fading);
